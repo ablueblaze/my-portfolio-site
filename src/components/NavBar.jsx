@@ -1,9 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
-export default function NavBar() {
-  const [colors, setColors] = useEffect({
-    accent: '#00F0DA',
-  });
+export default function NavBar(props) {
+  const { activePage } = props;
   return (
     <div className='flex justify-between items-center m-6'>
       <a href='#'>
@@ -13,13 +11,38 @@ export default function NavBar() {
           alt=''
         />
       </a>
-      <nav className='bg-gray-500 p-4'>
+      <nav className='bg-gray-300 p-4 rounded-xl'>
         <ul className='flex flex-row'>
-          <li className='pl-3 pr-3'>Home</li>
-          <li className='pl-3 pr-3'>About</li>
-          <li className='pl-3 pr-3'>Methods</li>
-          <li className='pl-3 pr-3'>Projects</li>
-          <li className='pl-3 pr-3'>Contact</li>
+          <li
+            className={`${
+              activePage === 'home' ? 'border-accent-b' : ''
+            } nav-button`}>
+            Home
+          </li>
+          <li
+            className={`${
+              activePage === 'about' ? 'border-accent-b' : ''
+            } nav-button`}>
+            About
+          </li>
+          <li
+            className={`${
+              activePage === 'methods' ? 'border-accent-b' : ''
+            } nav-button`}>
+            Methods
+          </li>
+          <li
+            className={`${
+              activePage === 'projects' ? 'border-accent-b' : ''
+            } nav-button`}>
+            Projects
+          </li>
+          <li
+            className={`${
+              activePage === 'contacts' ? 'border-accent-b' : ''
+            } nav-button`}>
+            Contact
+          </li>
         </ul>
       </nav>
     </div>
