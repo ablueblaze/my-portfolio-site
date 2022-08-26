@@ -7,7 +7,7 @@ import Hero from './components/Hero';
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
   return (
-    <div className='App'>
+    <div className='bg-teal-600 h-screen'>
       <NavBar activePage={currentPage} />
       <Hero />
     </div>

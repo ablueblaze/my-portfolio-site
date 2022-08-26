@@ -2,49 +2,41 @@ import React from 'react';
 
 export default function NavBar(props) {
   const { activePage } = props;
+  const navBtnActive = (page) => {
+    if (activePage === page) {
+      return 'border-accent-b';
+    }
+    return '';
+  };
+
   return (
-    <div className='flex justify-between items-center m-6'>
-      <a href='#'>
-        <img
-          className='w-40'
-          src='./src/assets/undraw_hacker_mind_-6-y85.svg'
-          alt=''
-        />
-      </a>
-      <nav className='bg-gray-300 p-4 rounded-xl'>
-        <ul className='flex flex-row'>
-          <li
-            className={`${
-              activePage === 'home' ? 'border-accent-b' : ''
-            } nav-button`}>
+    <nav className='relative container mx-auto p-6'>
+      <div className='flex items-center justify-between'>
+        <div className='pt-2'>
+          <img
+            className='max-w-[100px]'
+            src='./src/assets/undraw_hacker_mind_-6-y85.svg'
+            alt=''
+          />
+        </div>
+        <div className='hidden md:flex py-3 px-6 rounded-full space-x-6 bg-dark-clr text-text-light'>
+          <a href='#' className='hover:text-accent-clr'>
             Home
-          </li>
-          <li
-            className={`${
-              activePage === 'about' ? 'border-accent-b' : ''
-            } nav-button`}>
+          </a>
+          <a href='#' className='hover:text-accent-clr'>
             About
-          </li>
-          <li
-            className={`${
-              activePage === 'methods' ? 'border-accent-b' : ''
-            } nav-button`}>
+          </a>
+          <a href='#' className='hover:text-accent-clr'>
             Methods
-          </li>
-          <li
-            className={`${
-              activePage === 'projects' ? 'border-accent-b' : ''
-            } nav-button`}>
+          </a>
+          <a href='#' className='hover:text-accent-clr'>
             Projects
-          </li>
-          <li
-            className={`${
-              activePage === 'contacts' ? 'border-accent-b' : ''
-            } nav-button`}>
+          </a>
+          <a href='#' className='hover:text-accent-clr'>
             Contact
-          </li>
-        </ul>
-      </nav>
-    </div>
+          </a>
+        </div>
+      </div>
+    </nav>
   );
 }
