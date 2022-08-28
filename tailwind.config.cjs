@@ -17,9 +17,15 @@ module.exports = {
         'accent-clr': '#ff5e5b',
       },
       spacing: {
-        '1/4-screen': '25%',
-        '1/2-screen': '50%',
-        '3/4-screen': '75vh',
+        '1/4-h-screen': '25vh',
+        '1/2-h-screen': '50vh',
+        '3/4-h-screen': '75vh',
+        '1/4-w-screen': '25vh',
+        '1/2-w-screen': '50vh',
+        '3/4-w-screen': '75vh',
+        '1/4%': '25%',
+        '1/2%': '50%',
+        '3/4%': '75%',
       },
       dropShadow: {
         hero: '0 0 1rem white',

@@ -10,11 +10,11 @@ export default function NavBar(props) {
   };
 
   return (
-    <nav className='relative container py-4 mx-auto'>
+    <nav className='relative container py-1 mx-auto md:py-2'>
       <div className='flex items-center justify-between'>
         <div className='pt-2'>
           <img
-            className='max-w-[100px]'
+            className='max-w-[80px]'
             src='./src/assets/undraw_hacker_mind_-6-y85.svg'
             alt=''
           />
