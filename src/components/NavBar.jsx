@@ -10,7 +10,7 @@ export default function NavBar(props) {
   };
 
   return (
-    <nav className='relative container mx-auto p-6'>
+    <nav className='relative container py-4 mx-auto'>
       <div className='flex items-center justify-between'>
         <div className='pt-2'>
           <img
