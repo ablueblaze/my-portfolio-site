@@ -20,6 +20,8 @@ module.exports = {
         '1/4-h-screen': '25vh',
         '1/2-h-screen': '50vh',
         '3/4-h-screen': '75vh',
+        '80-h-screen': '80vh',
+        '90-h-screen': '90vh',
         '1/4-w-screen': '25vh',
         '1/2-w-screen': '50vh',
         '3/4-w-screen': '75vh',
@@ -30,6 +32,9 @@ module.exports = {
       dropShadow: {
         hero: '0 0 1rem white',
       },
+    },
+    container: {
+      padding: '1rem',
     },
   },
   plugins: [],
