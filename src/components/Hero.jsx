@@ -12,8 +12,9 @@ export default function Hero() {
             I'm a front-end web developer.
           </p>
         </div>
+        {/* <div className='absolute bg-top bg-center animate-spin-slow bg-yin-yang opacity-5 w-super h-super '></div> */}
         <img
-          className='absolute opacity-5 max-w-screen-md md:ml-1/4%'
+          className='absolute opacity-5 animate-spin-slow max-w-screen-md md:ml-1/4%'
           src='../src/assets/yin-yang-solid.svg'
           alt=''
         />

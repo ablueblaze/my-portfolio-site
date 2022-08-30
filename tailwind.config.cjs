@@ -28,9 +28,16 @@ module.exports = {
         '1/4%': '25%',
         '1/2%': '50%',
         '3/4%': '75%',
+        super: '150%',
       },
       dropShadow: {
         hero: '0 0 1rem white',
+      },
+      animation: {
+        'spin-slow': 'spin 30s linear infinite',
+      },
+      backgroundImage: {
+        'yin-yang': "url('./src/assets/yin-yang-solid.svg')",
       },
     },
     container: {
