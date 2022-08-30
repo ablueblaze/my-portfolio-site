@@ -1,59 +1,45 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import './index.css';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import GeneralContent from './components/GeneralContent';
-import Projects from './components/Projects';
+import Project from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import siteContent from './data/siteContent';
+// const siteContent = require('./json/siteContent.json');
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
-  const about = {
-    title: "It's all about me baby!",
-    image: 'https://picsum.photos/200/300',
-    alt: 'This is my image',
-    contents:
-      "Well, Hi! My name's Blaze, and I'm a front end web developer. I've been building small projects for the past two years.",
-  };
-  const Projects1 = [
-    {
-      title: 'Project 1',
-      image: 'http://placehold.it/350x150',
-      alt: 'Project 1',
-      contents:
-        "This is a project I did for a client. It's a simple website for a local business.",
-    },
-    {
-      title: 'Project 2',
-      image: 'http://placehold.it/350x150',
-      alt: 'Project 1',
-      contents:
-        "This is a project I did for a client. It's a simple website for a local business.",
-    },
-    {
-      title: 'Project 3',
-      image: 'http://placehold.it/350x150',
-      alt: 'Project 1',
-      contents:
-        "This is a project I did for a client. It's a simple website for a local business.",
-    },
-  ];
+  const [Projects, setProjects] = useState([]);
+
   return (
     <div className='w-full'>
-      <div className='sticky top-0 w-full bg-accent-clr z-50'>
+      <div className='sticky top-0 w-full z-50'>
         <NavBar activePage={currentPage} />
       </div>
       <Hero />
       <GeneralContent
+        contentId='about'
         textSide='right'
-        image={about.image}
-        alt={about.alt}
-        title={about.title}
-        text={about.contents}
+        image={siteContent.about.image}
+        alt={siteContent.about.alt}
+        title={siteContent.about.title}
+        text={siteContent.about.description}
       />
-      <Projects />
+      {siteContent.projects.map((project) => {
+        return [
+          <Project
+            image={project.image}
+            alt={project.alt}
+            title={project.title}
+            description={project.description}
+            link={project.link}
+          />,
+        ];
+      })}
+      {Projects}
       <Contact />
       <Footer />
     </div>

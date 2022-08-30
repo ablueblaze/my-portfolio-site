@@ -2,12 +2,13 @@
 import React from 'react';
 
 export default function GeneralContent(props) {
-  const { image, alt, title, text, textSide } = props;
+  const { image, alt, title, text, textSide, contentId } = props;
   return (
     <div
-      className={`container mx-auto pb-32 flex flex-col ${
+      className={`container mx-auto pb-32 flex flex-col pt-32 ${
         textSide === 'right' ? 'md:flex-row' : 'md:flex-row-reverse'
-      }`}>
+      }`}
+      id={contentId}>
       <img className='h-auto' src={image} alt={alt} />
       <div>
         <h2 className='text-5xl my-8'>{title}</h2>

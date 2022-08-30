@@ -11,6 +11,7 @@ export default function Footer(props) {
             <a
               key={link.id}
               className='w-10 hover:text-gray-200 mx-4'
+              target='_blank'
               href={link.url}>
               <img src={link.img} alt={link.alt} />
             </a>
@@ -19,6 +20,11 @@ export default function Footer(props) {
         <p className='py-4 text-gray-400 text-xs'>
           &copy;2022 by Blaze Scott. All rights reserved.
         </p>
+        <a
+          href='https://github.com/ablueblaze/my-portfolio-site'
+          target='_blank'>
+          <p className='py-4 text-gray-400 text-xs'>Checkout the code here.</p>
+        </a>
       </div>
     </div>
   );
@@ -28,30 +34,27 @@ Footer.defaultProps = {
   links: [
     {
       id: 'email',
-      url: '#',
+      url: 'mailto:blaze@fyxwing.com',
       img: './src/assets/at-solid.svg',
-      alt: '#',
+      alt: 'Email icon',
     },
     {
       id: 'twitter',
-      url: '#',
+      url: 'https://twitter.com/ABlueBlaze/',
       img: './src/assets/twitter-brands.svg',
-      alt: '#',
-      text: 'About',
+      alt: 'Twitter Icon',
     },
     {
       id: 'linkedin',
-      url: '#',
+      url: 'https://www.linkedin.com/in/blaze-scott-3672b891/',
       img: './src/assets/linkedin-brands.svg',
-      alt: '#',
-      text: 'Contact',
+      alt: 'Linkedin Icon',
     },
     {
       id: 'github',
-      url: '#',
+      url: 'https://github.com/ablueblaze',
       img: './src/assets/github-brands.svg',
-      alt: '#',
-      text: 'Contact',
+      alt: 'GitHub Icon',
     },
   ],
 };

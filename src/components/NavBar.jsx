@@ -28,49 +28,43 @@ export default function NavBar(props) {
           />
         </div>
         <div className='hidden md:flex py-3 px-6 rounded-full space-x-6 bg-dark-clr text-text-light'>
-          <a href='#' className='hover:text-accent-clr'>
+          <a href='#home' className='hover:text-accent-clr'>
             Home
           </a>
-          <a href='#' className='hover:text-accent-clr'>
+          <a href='#about' className='hover:text-accent-clr'>
             About
           </a>
-          <a href='#' className='hover:text-accent-clr'>
-            Methods
-          </a>
-          <a href='#' className='hover:text-accent-clr'>
+          <a href='#projects' className='hover:text-accent-clr'>
             Projects
           </a>
-          <a href='#' className='hover:text-accent-clr'>
+          <a href='#contact' className='hover:text-accent-clr'>
             Contact
           </a>
         </div>
         <button
           onClick={toggleMenu}
           id='menu-btn'
-          class='block hamburger md:hidden focus:outline-none'>
-          <span class='hamburger-top'></span>
-          <span class='hamburger-middle'></span>
-          <span class='hamburger-bottom'></span>
+          className='block hamburger md:hidden focus:outline-none'>
+          <span className='hamburger-top'></span>
+          <span className='hamburger-middle'></span>
+          <span className='hamburger-bottom'></span>
         </button>
       </div>
       {/* <!-- Mobile Menu --> */}
-      <div class='md:hidden'>
+      <div className='md:hidden'>
         <div
           id='menu'
-          class='absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md'>
-          <a href='#' className='hover:text-accent-clr'>
+          className='absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md'>
+          <a href='#home' className='hover:text-accent-clr'>
             Home
           </a>
-          <a href='#' className='hover:text-accent-clr'>
+          <a href='#about' className='hover:text-accent-clr'>
             About
           </a>
-          <a href='#' className='hover:text-accent-clr'>
-            Methods
-          </a>
-          <a href='#' className='hover:text-accent-clr'>
+          <a href='#projects' className='hover:text-accent-clr'>
             Projects
           </a>
-          <a href='#' className='hover:text-accent-clr'>
+          <a href='#contact' className='hover:text-accent-clr'>
             Contact
           </a>
         </div>
