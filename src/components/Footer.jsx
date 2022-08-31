@@ -4,7 +4,7 @@ import React from 'react';
 export default function Footer(props) {
   const { links } = props;
   return (
-    <div className='bg-gray-400 text-text-dark text-center py-4'>
+    <div className=' text-text-dark text-center py-4 w-full'>
       <div className='container mx-auto'>
         <div className='flex flex-row justify-center'>
           {links.map((link) => (

@@ -5,23 +5,44 @@
   },
   "projects": [
     {
-      "title": "Project 1",
-      "link": "#",
-      "image": "https://picsum.photos/200/300",
-      "alt": "Project 1",
-      "description": "This is a project I did for a client. It's a simple website for a local business."
-    },
-    {
       "title": "Project 2",
       "link": "#",
-      "image": "https://picsum.photos/200/300",
+      "image": "src/assets/Test-wing.jpg",
       "alt": "Project 1",
       "description": "This is a project I did for a client. It's a simple website for a local business."
     },
     {
       "title": "Project 3",
       "link": "#",
-      "image": "https://picsum.photos/200/300",
+      "image": "src/assets/profile_pic_4.jpg",
+      "alt": "Project 1",
+      "description": "This is a project I did for a client. It's a simple website for a local business."
+    },
+    {
+      "title": "Project 2",
+      "link": "#",
+      "image": "src/assets/Test-wing.jpg",
+      "alt": "Project 1",
+      "description": "This is a project I did for a client. It's a simple website for a local business."
+    },
+    {
+      "title": "Project 3",
+      "link": "#",
+      "image": "src/assets/profile_pic_4.jpg",
+      "alt": "Project 1",
+      "description": "This is a project I did for a client. It's a simple website for a local business."
+    },
+    {
+      "title": "Project 2",
+      "link": "#",
+      "image": "src/assets/Test-wing.jpg",
+      "alt": "Project 1",
+      "description": "This is a project I did for a client. It's a simple website for a local business."
+    },
+    {
+      "title": "Project 3",
+      "link": "#",
+      "image": "src/assets/profile_pic_4.jpg",
       "alt": "Project 1",
       "description": "This is a project I did for a client. It's a simple website for a local business."
     }

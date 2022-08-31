@@ -8,13 +8,13 @@ export default function AboutMe(props) {
       className='container mx-auto  flex flex-col justify-center items-center pb-32 flex flex-col pt-32'
       id='about'>
       <img
-        className=' object-cover max-w-xl rounded-full'
+        className=' object-cover max-w-full lg:max-w-xl rounded-full'
         src='src/assets/Good_Profile_pic.jpg'
         alt='picture of Blaze'
       />
-      <div className='my-8 max-w-2xl'>
+      <div className='my-8 max-w-xl'>
         <h2 className='text-5xl '>{title}</h2>
-        <p className='mt-6 text-left mx-20'>{text}</p>
+        <p className='mt-6 text-left mx-auto'>{text}</p>
       </div>
     </div>
   );

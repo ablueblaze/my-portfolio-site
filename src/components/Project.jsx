@@ -2,20 +2,19 @@ import React from 'react';
 
 export default function Project(props) {
   // have the projects be a extensive json file that is imported
-  const { image, alt, title, description, link } = props;
+  const { image, alt, link, title, description } = props;
   return (
-    <div className='container mx-auto pb-32 flex flex-col'>
-      <a className='' href={link}>
-        <img className='' src={image} alt={alt} />
-      </a>
-      {/* include a slide overlay with the title and tech list */}
-
-      {/* Text content linked to the current shown project */}
-      <div>
-        <h2 className='text-5xl my-8'>{title}</h2>
-        <p>{description}</p>
-      </div>
-    </div>
+    <>
+      {/* <a className='red-border' href={link}> */}
+      {/* the image card */}
+      <img
+        className='rounded-3xl shadow-2xl w-44 h-44 object-cover m-4'
+        // className='max-w-full h-auto rounded-full'
+        src={image}
+        alt={alt}
+      />
+      {/* </a> */}
+    </>
   );
 }
 
