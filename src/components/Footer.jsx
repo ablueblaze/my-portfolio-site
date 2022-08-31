@@ -4,7 +4,7 @@ import React from 'react';
 export default function Footer(props) {
   const { links } = props;
   return (
-    <div className='bg-light-clr text-gray-400 text-center py-4'>
+    <div className='bg-gray-400 text-text-dark text-center py-4'>
       <div className='container mx-auto'>
         <div className='flex flex-row justify-center'>
           {links.map((link) => (
@@ -17,13 +17,13 @@ export default function Footer(props) {
             </a>
           ))}
         </div>
-        <p className='py-4 text-gray-400 text-xs'>
+        <p className='py-4  text-xs'>
           &copy;2022 by Blaze Scott. All rights reserved.
         </p>
         <a
           href='https://github.com/ablueblaze/my-portfolio-site'
           target='_blank'>
-          <p className='py-4 text-gray-400 text-xs'>Checkout the code here.</p>
+          <p className='py-4 text-xs'>Checkout the code here.</p>
         </a>
       </div>
     </div>

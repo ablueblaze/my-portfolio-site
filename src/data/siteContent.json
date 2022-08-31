@@ -1,8 +1,6 @@
 {
   "about": {
     "title": "It's all about me baby!",
-    "image": "https://picsum.photos/200/300",
-    "alt": "This is my image",
     "description": "Well, Hi! My name's Blaze, and I'm a front end web developer. I've been building small projects for the past two years."
   },
   "projects": [

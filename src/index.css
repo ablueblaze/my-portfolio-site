@@ -13,6 +13,15 @@ html {
   scroll-behavior: smooth !important;
 }
 
+body {
+  background-image: url('src/assets/prism.png');
+  background-blend-mode: soft-light;
+}
+
+.red-border {
+  border: 1px solid red;
+}
+
 /* Hamburger Menu */
 .hamburger {
   cursor: pointer;

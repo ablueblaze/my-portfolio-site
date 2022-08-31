@@ -4,7 +4,7 @@ export default function Project(props) {
   // have the projects be a extensive json file that is imported
   const { image, alt, title, description, link } = props;
   return (
-    <div className='container mx-auto pb-32 flex flex-col' id='projects'>
+    <div className='container mx-auto pb-32 flex flex-col'>
       <a className='' href={link}>
         <img className='' src={image} alt={alt} />
       </a>

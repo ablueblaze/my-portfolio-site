@@ -6,8 +6,8 @@ module.exports = {
       screens: {
         sm: '480px',
         md: '768px',
-        lg: '976px',
-        xl: '1440px',
+        lg: '768px',
+        xl: '768px',
       },
       colors: {
         'text-light': '#E5E5E5',
@@ -15,6 +15,9 @@ module.exports = {
         'dark-clr': '#242423',
         'light-clr': '#f8f9fa',
         'accent-clr': '#ff5e5b',
+        'image-match-light-brown': '#D9D5BC',
+        'image-match-dark-brown': '#934322',
+        'image-match-black': '#27241D',
       },
       spacing: {
         '1/4-h-screen': '25vh',
@@ -28,6 +31,7 @@ module.exports = {
         '1/4%': '25%',
         '1/2%': '50%',
         '3/4%': '75%',
+        'w-full': '100vw',
         super: '150%',
       },
       dropShadow: {
