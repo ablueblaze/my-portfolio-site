@@ -4,7 +4,7 @@ import './index.css';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
-import Project from './components/Project';
+import ProjectModal from './components/ProjectModal';
 import Footer from './components/Footer';
 import siteContent from './data/siteContent';
 import { nanoid } from 'nanoid';
@@ -27,15 +27,17 @@ function App() {
       <div className='mx-auto flex flex-wrap justify-center items-center max-w-5xl'>
         {siteContent.projects.map((project) => {
           return (
-            <Project
+            <img
               key={nanoid()}
-              image={project.image}
+              className='relative rounded-3xl shadow-2xl w-44 h-44 object-cover m-4'
+              // className='max-w-full h-auto rounded-full'
+              src={project.image}
               alt={project.alt}
-              link={project.link}
             />
           );
         })}
       </div>
+      <ProjectModal />
       <h2 className='text-4xl underline mb-4 opacity-90 mt-96'>Contact me!</h2>
       <p className='mb-10 max-w-xl mx-auto text-left'>
         While your travels have brought you here, I find myself wandering the
