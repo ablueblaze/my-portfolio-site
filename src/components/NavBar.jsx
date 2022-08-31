@@ -11,8 +11,8 @@ export default function NavBar(props) {
 
   return (
     // <nav className='relative container py-1 mx-auto md:py-2'>
-    <nav className='sticky top-0 w-full z-50 flex justify-center items-center bg-dark-clr'>
-      <div className='py-3 px-6 space-x-6 md:space-x-20 text-text-light'>
+    <nav className='sticky top-0 w-full z-50 flex justify-center items-center '>
+      <div className='py-3 px-6 space-x-6 md:space-x-20 text-text-light bg-neutral-800 rounded-full mt-3'>
         <a href='#home' className='hover:text-accent-clr  p-4'>
           Home
         </a>

@@ -14,7 +14,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState('home');
 
   return (
-    <div className=' w-full'>
+    <div className='container mx-auto w-full text-center'>
       <NavBar activePage={currentPage} />
       <Hero />
       <AboutMe

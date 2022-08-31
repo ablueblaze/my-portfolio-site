@@ -14,8 +14,10 @@ html {
 }
 
 body {
-  background-image: url('src/assets/prism.png');
-  background-blend-mode: soft-light;
+  background-image: url('src/assets/prism-blue-green.png');
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 0.1rem;
+  color: #eaeaea;
 }
 
 .red-border {

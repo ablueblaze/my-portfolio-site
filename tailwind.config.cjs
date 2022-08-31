@@ -6,12 +6,14 @@ module.exports = {
       screens: {
         sm: '480px',
         md: '768px',
-        lg: '768px',
-        xl: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        // lg: '768px',
+        // xl: '768px',
       },
       colors: {
         'text-light': '#E5E5E5',
-        'text-dark': '#14213D',
+        'text-dark': '#eaeaea',
         'dark-clr': '#242423',
         'light-clr': '#f8f9fa',
         'accent-clr': '#ff5e5b',
