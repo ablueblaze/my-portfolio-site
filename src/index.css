@@ -20,6 +20,11 @@ body {
   color: #eaeaea;
 }
 
+.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .blue-border {
   border: 2px solid blue;
 }

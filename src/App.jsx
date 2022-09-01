@@ -11,7 +11,12 @@ import { nanoid } from 'nanoid';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
-
+  const toggleProject = (e, projectId) => {
+    e.preventDefault();
+    const projectModal = document.getElementById(projectId);
+    projectModal.classList.toggle('opacity-0');
+    projectModal.classList.toggle('pointer-events-none');
+  };
   return (
     <div className='container mx-auto w-full text-center'>
       <NavBar activePage={currentPage} />
@@ -26,18 +31,23 @@ function App() {
       </h2>
       <div className='mx-auto flex flex-wrap justify-center items-center max-w-5xl'>
         {siteContent.projects.map((project) => {
+          const currentId = nanoid();
           return (
-            <img
-              key={nanoid()}
-              className='relative rounded-3xl shadow-2xl w-44 h-44 object-cover m-4'
-              // className='max-w-full h-auto rounded-full'
-              src={project.image}
-              alt={project.alt}
-            />
+            <div
+              onMouseEnter={(e) => toggleProject(e, currentId)}
+              onMouseLeave={(e) => toggleProject(e, currentId)}>
+              <img
+                key={currentId}
+                className='rounded-3xl shadow-2xl w-44 h-44 object-cover m-4'
+                // className='max-w-full h-auto rounded-full'
+                src={project.image}
+                alt={project.alt}
+              />
+              <ProjectModal id={currentId} title={project.title} />
+            </div>
           );
         })}
       </div>
-      <ProjectModal />
       <h2 className='text-4xl underline mb-4 opacity-90 mt-96'>Contact me!</h2>
       <p className='mb-10 max-w-xl mx-auto text-left'>
         While your travels have brought you here, I find myself wandering the
