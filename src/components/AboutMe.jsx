@@ -9,7 +9,7 @@ export default function AboutMe(props) {
       id='about'>
       <img
         className=' object-cover max-w-full lg:max-w-xl rounded-full'
-        src='src/assets/Good_Profile_pic.jpg'
+        src='/public/assets/Good_Profile_pic.jpg'
         alt='picture of Blaze'
       />
       <div className='my-8 max-w-xl'>
