@@ -16,7 +16,7 @@ export default function Hero() {
       <div className='absolute  flex items-center object-cover overflow-hidden w-full h-full  md:w-4/5 md:ml-1/4% xl:w-1/2'>
         <img
           className='opacity-30 animate-spin-slow z-0'
-          src='../src/assets/yin-yang-solid.svg'
+          src='./src/assets/yin-yang-solid.svg'
           alt=''
         />
       </div>
