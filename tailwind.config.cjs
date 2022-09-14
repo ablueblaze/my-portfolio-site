@@ -36,7 +36,7 @@ module.exports = {
         'spin-slow': 'spin 30s linear infinite',
       },
       backgroundImage: {
-        'yin-yang': "url('./src/assets/yin-yang-solid.svg')",
+        'yin-yang': "url('Screens/yin-yang-solid.svg')",
       },
     },
     container: {

@@ -24,7 +24,7 @@ export default function Hero() {
         {/* todo: Smaller word and longer pointer */}
         <a
           href='#about'
-          className='text-8xl opacity-10 text-center rotate-90 pb-2 mt-24'>
+          className='text-8xl opacity-10 hover:opacity-30 hover:duration-150 text-center rotate-90 pb-2 mt-24'>
           &#x27A2;
         </a>
       </div>
