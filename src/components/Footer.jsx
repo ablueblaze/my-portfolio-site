@@ -5,7 +5,7 @@ export default function Footer(props) {
   const { links } = props;
   return (
     <div
-      className='absolute left-0 bg-[url("./assets/prism.png")] w-full mt-72 '
+      className='absolute left-0 bg-[url("../assets/prism.png")] w-full mt-72 '
       id='contact'>
       <div className='  text-text-dark text-center py-4 w-full'>
         <div className='container mx-auto'>
