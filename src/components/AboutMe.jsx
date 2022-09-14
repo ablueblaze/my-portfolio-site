@@ -1,8 +1,7 @@
 // General content component with image and text
 import React from 'react';
 
-export default function AboutMe(props) {
-  const { title, text } = props;
+export default function AboutMe({ title, text }) {
   return (
     <div
       className='container mx-auto flex flex-col  justify-center items-center pb-32 flex flex-col pt-32 md:flex-row md:justify-between md:max-w-6xl'

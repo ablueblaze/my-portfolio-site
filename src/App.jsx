@@ -15,6 +15,7 @@ function App() {
     e.preventDefault();
     const projectModal = document.getElementById(projectId);
     projectModal.classList.toggle('opacity-0');
+    projectModal.classList.toggle('-translate-y-[30px]');
     projectModal.classList.toggle('pointer-events-none');
   };
 
