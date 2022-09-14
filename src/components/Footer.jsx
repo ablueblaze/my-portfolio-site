@@ -5,7 +5,7 @@ export default function Footer(props) {
   const { links } = props;
   return (
     <div
-      className='absolute left-0 bg-[url("/public/assets/prism.png")] w-full mt-72 '
+      className='absolute left-0 bg-[url("assets/prism.png")] w-full mt-72 '
       id='contact'>
       <div className='  text-text-dark text-center py-4 w-full'>
         <div className='container mx-auto'>
@@ -47,25 +47,25 @@ Footer.defaultProps = {
     {
       id: 'email',
       url: 'mailto:blaze@fyxwing.com',
-      img: '/public/assets/at-solid.svg',
+      img: 'assets/at-solid.svg',
       alt: 'Email icon',
     },
     {
       id: 'twitter',
       url: 'https://twitter.com/ABlueBlaze/',
-      img: '/public/assets/twitter-brands.svg',
+      img: 'assets/twitter-brands.svg',
       alt: 'Twitter Icon',
     },
     {
       id: 'linkedin',
       url: 'https://www.linkedin.com/in/blaze-scott-3672b891/',
-      img: '/public/assets/linkedin-brands.svg',
+      img: 'assets/linkedin-brands.svg',
       alt: 'Linkedin Icon',
     },
     {
       id: 'github',
       url: 'https://github.com/ablueblaze',
-      img: '/public/assets/github-brands.svg',
+      img: 'assets/github-brands.svg',
       alt: 'GitHub Icon',
     },
   ],
