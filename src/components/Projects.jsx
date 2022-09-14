@@ -21,7 +21,14 @@ export default function Projects({ projects, ProjectModal, toggleProject }) {
                 src={project.image}
                 alt={project.alt}
               />
-              <ProjectModal id={currentId} title={project.title} />
+              <ProjectModal
+                id={currentId}
+                title={project.title}
+                webImage={project.image}
+                webAlt={project.alt}
+                link={project.link}
+                description={project.description}
+              />
             </div>
           );
         })}
