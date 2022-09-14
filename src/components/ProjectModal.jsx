@@ -19,7 +19,7 @@ export default function Project({
           '>
         <a
           href={link}
-          className='flex items-center justify-center h-1/2 overflow-hidden bg-[url("./assets/prism-blue-green.png")]'>
+          className='flex items-center justify-center h-1/2 overflow-hidden bg-[url("../assets/prism-blue-green.png")]'>
           <img
             className='w-10/12 rounded-lg md:w-6/12'
             src={webImage}
