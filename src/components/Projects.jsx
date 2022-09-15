@@ -14,7 +14,6 @@ export default function Projects({ projects }) {
             <a href={project.link} target='_blank' key={currentId}>
               <img
                 className='rounded-3xl shadow-2xl w-44 h-44 object-cover m-4'
-                // className='max-w-full h-auto rounded-full'
                 src={project.image}
                 alt={project.alt}
               />

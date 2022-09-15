@@ -5,7 +5,6 @@ import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
-import ProjectModal from './components/ProjectModal';
 import Footer from './components/Footer';
 import siteContent from './data/siteContent';
 
@@ -16,11 +15,7 @@ function App() {
       <div id='home'></div>
       <NavBar activePage={currentPage} />
       <Hero id={'hero'} />
-      <AboutMe
-        contentId='about'
-        title={siteContent.about.title}
-        text={siteContent.about.description}
-      />
+      <AboutMe contentId='about' />
       <Projects projects={siteContent.projects} />
       <div className='pt-96'></div>
       <Footer />
