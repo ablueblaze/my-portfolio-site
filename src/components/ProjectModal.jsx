@@ -27,9 +27,9 @@ export default function Project({
           />
         </a>
         {/* Separation point */}
-        <div className='p-2 overflow-scroll border-t-4 border-solid border-zinc-800'>
+        <div className='p-2 hover:overflow-scroll border-t-4 border-solid border-zinc-800'>
           <h3 className='text-4xl'>{title}</h3>
-          <p className='mt-4'>{description}</p>
+          <p className='mt-4 overflow-auto'>{description}</p>
         </div>
       </div>
     </div>

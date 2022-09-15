@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function Hero() {
+export default function Hero({ id }) {
   return (
     <div
       className='relative container mx-auto flex flex-col items-center justify-center h-3/4-h-screen mb-1/4-h-screen'
-      id='home'>
+      id={id}>
       <div className='absolute md:mr-1/4-h-screen md:mt-20 z-10'>
         <h1 className='text-6xl font-bold text-text-dark md:text-9xl'>
           Blaze Scott
@@ -13,7 +13,7 @@ export default function Hero() {
           I'm a front-end web developer.
         </p>
       </div>
-      <div className='absolute  flex items-center object-cover overflow-hidden w-full h-full  md:w-4/5 md:ml-1/4% xl:w-1/2'>
+      <div className='absolute flex items-center object-cover overflow-hidden w-full h-full  md:w-4/5 md:ml-1/4% xl:w-1/2'>
         <img
           className='opacity-30 animate-spin-slow z-0'
           src='assets/yin-yang-solid.svg'

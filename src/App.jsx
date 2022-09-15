@@ -21,8 +21,9 @@ function App() {
 
   return (
     <div className='container mx-auto w-full text-center'>
+      <div id='home'></div>
       <NavBar activePage={currentPage} />
-      <Hero />
+      <Hero id={'hero'} />
       <AboutMe
         contentId='about'
         title={siteContent.about.title}
@@ -33,6 +34,7 @@ function App() {
         ProjectModal={ProjectModal}
         toggleProject={toggleProject}
       />
+      <div className='pb-96'></div>
       <Footer />
     </div>
   );
