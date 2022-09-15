@@ -34,7 +34,7 @@ function App() {
         ProjectModal={ProjectModal}
         toggleProject={toggleProject}
       />
-      <div className='pb-96'></div>
+      <div className='pt-96'></div>
       <Footer />
     </div>
   );
