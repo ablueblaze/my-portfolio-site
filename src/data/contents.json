@@ -1,0 +1,30 @@
+{
+  "aboutMe": {
+    "title": "About Me",
+    "blurbs": [
+      "Thank you for taking the time out of your no doubt busy day to come by my little corner of the internet. I've been leveling up my skills in front-end web development for a little over a year now.",
+      "I've found the path to be rewarding, exhausting, fun, and much more. I am a creator at heart. I love to create things that are useful, and that solve small problems. I am a self taught developer, and I am always looking to learn more.",
+      "I am currently working on a few projects, and I am always looking for new opportunities. If you have any questions, or would like to work together, please feel free to contact me. I look forward to hearing from you."
+    ]
+  },
+  "projects": [
+    {
+      "title": "Etch-a-Sketch",
+      "link": "https://fluffy-croissant-7df646.netlify.app",
+      "image": "../assets/Screens/EtchaSketch-screen.png",
+      "alt": "Etch-a-Sketch screenshot"
+    },
+    {
+      "title": "Expense Tracker",
+      "link": "https://sparkly-squirrel-e6c6c1.netlify.app",
+      "image": "../assets/Screens/Expense-screen.png",
+      "alt": "Expense Tracker screenshot"
+    },
+    {
+      "title": "Calculator",
+      "link": "https://polite-elf-7b445f.netlify.app",
+      "image": "../assets/Screens/Calc-screen.png",
+      "alt": "Calculator screenshot"
+    }
+  ]
+}

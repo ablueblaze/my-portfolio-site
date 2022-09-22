@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import siteContent from './data/siteContent';
+import contents from './data/contents.json';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -15,7 +16,7 @@ function App() {
       <div id='home'></div>
       <NavBar activePage={currentPage} />
       <Hero id={'hero'} />
-      <AboutMe contentId='about' />
+      <AboutMe contentId='about' Contents={contents} />
       <Projects projects={siteContent.projects} />
       <div className='pt-96'></div>
       <Footer />
