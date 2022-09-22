@@ -1,8 +1,7 @@
 // footer component with links
 import React from 'react';
 
-export default function Footer(props) {
-  const { links } = props;
+export default function Footer({ links, blurb }) {
   return (
     <div
       className='absolute left-0 bg-[url("../assets/prism.png")] w-full '
@@ -21,13 +20,7 @@ export default function Footer(props) {
               </a>
             ))}
           </div>
-          <p className='mb-10 max-w-xl mx-auto text-center mt-5'>
-            While your travels have brought you here, I find myself wandering
-            the far reaches of the web. Forever seeking the next cyber hill
-            seeking the next bit of wisdom. If you have any questions, would
-            like to work together, or feel up to a virtual coffee to swap
-            stories, please feel free to contact me.
-          </p>
+          <p className='mb-10 max-w-xl mx-auto text-center mt-5'>{blurb}</p>
           <p className='py-4  text-xs'>
             &copy;2022 by Blaze Scott. All rights reserved.
           </p>

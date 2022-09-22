@@ -6,7 +6,6 @@ import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import siteContent from './data/siteContent';
 import contents from './data/contents.json';
 
 function App() {
@@ -17,9 +16,10 @@ function App() {
       <NavBar activePage={currentPage} />
       <Hero id={'hero'} />
       <AboutMe contentId='about' Contents={contents} />
-      <Projects projects={siteContent.projects} />
+      <Projects projects={contents.projects} />
       <div className='pt-96'></div>
-      <Footer />
+
+      <Footer links={contents.contactLinks} blurb={contents.contactBlurb} />
     </div>
   );
 }

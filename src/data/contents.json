@@ -7,6 +7,33 @@
       "I am currently working on a few projects, and I am always looking for new opportunities. If you have any questions, or would like to work together, please feel free to contact me. I look forward to hearing from you."
     ]
   },
+  "contactBlurb": "While your travels have brought you here, I find myself wandering the far reaches of the web. Forever seeking the next cyber hill seeking the next bit of wisdom. If you have any questions, would like to work together, or feel up to a virtual coffee to swap stories, please feel free to contact me.",
+  "contactLinks": [
+    {
+      "id": "email",
+      "url": "mailto:blaze@fyxwing.com",
+      "img": "../assets/at-solid.svg",
+      "alt": "Email icon"
+    },
+    {
+      "id": "twitter",
+      "url": "https://twitter.com/ABlueBlaze/",
+      "img": "../assets/twitter-brands.svg",
+      "alt": "Twitter Icon"
+    },
+    {
+      "id": "linkedin",
+      "url": "https://www.linkedin.com/in/blaze-scott-3672b891/",
+      "img": "../assets/linkedin-brands.svg",
+      "alt": "Linkedin Icon"
+    },
+    {
+      "id": "github",
+      "url": "https://github.com/ablueblaze",
+      "img": "../assets/github-brands.svg",
+      "alt": "GitHub Icon"
+    }
+  ],
   "projects": [
     {
       "title": "Etch-a-Sketch",
