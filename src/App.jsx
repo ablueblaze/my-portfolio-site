@@ -18,6 +18,7 @@ function App() {
       <AboutMe contentId='about' Contents={contents} />
       <Projects projects={contents.projects} />
       <div className='pt-96'></div>
+      <section></section>
 
       <Footer links={contents.contactLinks} blurb={contents.contactBlurb} />
     </div>
