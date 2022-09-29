@@ -7,49 +7,58 @@
       "I am currently working on a few projects, and I am always looking for new opportunities. If you have any questions, or would like to work together, please feel free to contact me. I look forward to hearing from you."
     ]
   },
-  "contactBlurb": "While your travels have brought you here, I find myself wandering the far reaches of the web. Forever seeking the next cyber hill seeking the next bit of wisdom. If you have any questions, would like to work together, or feel up to a virtual coffee to swap stories, please feel free to contact me.",
-  "contactLinks": [
-    {
-      "id": "email",
-      "url": "mailto:blaze@fyxwing.com",
-      "img": "../assets/at-solid.svg",
-      "alt": "Email icon"
-    },
-    {
-      "id": "twitter",
-      "url": "https://twitter.com/ABlueBlaze/",
-      "img": "../assets/twitter-brands.svg",
-      "alt": "Twitter Icon"
-    },
-    {
-      "id": "linkedin",
-      "url": "https://www.linkedin.com/in/blaze-scott-3672b891/",
-      "img": "../assets/linkedin-brands.svg",
-      "alt": "Linkedin Icon"
-    },
-    {
-      "id": "github",
-      "url": "https://github.com/ablueblaze",
-      "img": "../assets/github-brands.svg",
-      "alt": "GitHub Icon"
-    }
-  ],
+  "footer": {
+    "blurb": "While your travels have brought you here, I find myself wandering the far reaches of the web. Forever seeking the next cyber hill seeking the next bit of wisdom. If you have any questions, would like to work together, or feel up to a virtual coffee to swap stories, please feel free to contact me.",
+
+    "links": [
+      {
+        "id": "email",
+        "url": "mailto:blaze@fyxwing.com",
+        "img": "../assets/at-solid.svg",
+        "alt": "Email icon"
+      },
+      {
+        "id": "twitter",
+        "url": "https://twitter.com/ABlueBlaze/",
+        "img": "../assets/twitter-brands.svg",
+        "alt": "Twitter Icon"
+      },
+      {
+        "id": "linkedin",
+        "url": "https://www.linkedin.com/in/blaze-scott-3672b891/",
+        "img": "../assets/linkedin-brands.svg",
+        "alt": "Linkedin Icon"
+      },
+      {
+        "id": "github",
+        "url": "https://github.com/ablueblaze",
+        "img": "../assets/github-brands.svg",
+        "alt": "GitHub Icon"
+      }
+    ]
+  },
   "projects": [
     {
       "title": "Etch-a-Sketch",
-      "link": "https://fluffy-croissant-7df646.netlify.app",
+      "demoLink": "https://fluffy-croissant-7df646.netlify.app",
+      "repoLink": "#",
+      "description": "My first web application. A simple etch-a-sketch clone.",
       "image": "../assets/Screens/EtchaSketch-screen.png",
       "alt": "Etch-a-Sketch screenshot"
     },
     {
       "title": "Expense Tracker",
-      "link": "https://sparkly-squirrel-e6c6c1.netlify.app",
+      "demoLink": "https://sparkly-squirrel-e6c6c1.netlify.app",
+      "repoLink": "#",
+      "description": "Expense Tracker is a simple card for displaying expenses.",
       "image": "../assets/Screens/Expense-screen.png",
       "alt": "Expense Tracker screenshot"
     },
     {
       "title": "Calculator",
-      "link": "https://polite-elf-7b445f.netlify.app",
+      "demoLink": "https://polite-elf-7b445f.netlify.app",
+      "repoLink": "#",
+      "description": "Calculator app with a changeable theme",
       "image": "../assets/Screens/Calc-screen.png",
       "alt": "Calculator screenshot"
     }
