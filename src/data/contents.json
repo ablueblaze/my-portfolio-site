@@ -1,7 +1,7 @@
 {
   "aboutMe": {
     "title": "About Me",
-    "blurbs": [
+    "aboutBlurb": [
       "Thank you for taking the time out of your no doubt busy day to come by my little corner of the internet. I've been leveling up my skills in front-end web development for a little over a year now.",
       "I've found the path to be rewarding, exhausting, fun, and much more. I am a creator at heart. I love to create things that are useful, and that solve small problems. I am a self taught developer, and I am always looking to learn more.",
       "I am currently working on a few projects, and I am always looking for new opportunities. If you have any questions, or would like to work together, please feel free to contact me. I look forward to hearing from you."
@@ -61,6 +61,33 @@
       "description": "Calculator app with a changeable theme",
       "image": "../assets/Screens/Calc-screen.png",
       "alt": "Calculator screenshot"
+    }
+  ],
+  "navOptions": [
+    {
+      "id": "home",
+      "name": "Home",
+      "url": "#home"
+    },
+    {
+      "id": "about",
+      "name": "About",
+      "url": "#about"
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "url": "#projects"
+    },
+    {
+      "id": "skills",
+      "name": "Skills",
+      "url": "#skills"
+    },
+    {
+      "id": "contact",
+      "name": "Contact",
+      "url": "#contact"
     }
   ]
 }

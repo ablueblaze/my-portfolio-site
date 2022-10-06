@@ -4,6 +4,10 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}',
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
   ],
+  mode: 'jit',
+  // These paths are just examples, customize them to match your project structure
+  purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
+  darkMode: 'class',
   theme: {
     extend: {
       screens: {
@@ -13,38 +17,18 @@ module.exports = {
         xl: '1280px',
       },
       colors: {
-        'text-light': '#E5E5E5',
-        'text-dark': '#eaeaea',
-        'dark-clr': '#242423',
-        'light-clr': '#f8f9fa',
-        'accent-clr': '#ff5e5b',
+        'prime-light': '#FBF5F3',
+        'prime-dark': '#001528',
+        'prime-accent': '#A4031F',
+        'gradient-top': '#100036',
+        'gradient-bottom': '#2c0059',
       },
-      spacing: {
-        '1/4-h-screen': '25vh',
-        '1/2-h-screen': '50vh',
-        '3/4-h-screen': '75vh',
-        '80-h-screen': '80vh',
-        '90-h-screen': '90vh',
-        '1/4-w-screen': '25vh',
-        '1/2-w-screen': '50vh',
-        '3/4-w-screen': '75vh',
-        '1/4%': '25%',
-        '1/2%': '50%',
-        '3/4%': '75%',
-      },
-      dropShadow: {
-        hero: '0 0 1rem white',
-      },
-      animation: {
-        'spin-slow': 'spin 30s linear infinite',
-      },
-      backgroundImage: {
-        'yin-yang': "url('Screens/yin-yang-solid.svg')",
-      },
+      spacing: {},
+      dropShadow: {},
+      animation: {},
+      backgroundImage: {},
     },
-    container: {
-      padding: '1rem',
-    },
+    container: {},
   },
   plugins: [require('flowbite/plugin')],
 };

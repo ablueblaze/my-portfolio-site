@@ -3,21 +3,11 @@
 @tailwind utilities;
 
 @layer components {
-  .nav-button {
-    @apply pl-3 pr-3 border-b-2 border-gray-500 hover:text-fuchsia-500 
-    cursor-pointer;
-  }
-}
-
-html {
-  scroll-behavior: smooth !important;
 }
 
 body {
-  background-image: url('/public/assets/prism-blue-green.png');
-  font-family: 'Roboto Slab', serif;
-  letter-spacing: 0.1rem;
-  color: #eaeaea;
+  background-color: rgb(97, 97, 97);
+  color: #fbf5f3;
 }
 
 .blue-border {
