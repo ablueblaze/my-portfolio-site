@@ -4,6 +4,7 @@ import { nanoid } from 'nanoid';
 import './App.css';
 import './index.css';
 import contents from './data/contents.json';
+import NavBar from './components/NavBar';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -12,23 +13,11 @@ function App() {
       <main
         id='home'
         className='container min-w-full flex flex-col items-center justify-center'>
-        <nav className='container pt-4 text-lg flex justify-end'>
-          <ul className='flex '>
-            {contents.navOptions.map((option) => (
-              <li className={`px-3`} key={nanoid()}>
-                <a
-                  onClick={() => setCurrentPage(option.id)}
-                  className={`text-prime-light lg:text-2xl hover:text-prime-accent transition-all ease-linear duration-300  ${
-                    //todo: find a way to make the transition smoother
-                    currentPage === option.id ? 'text-prime-accent' : ''
-                  }`}
-                  href={option.url}>
-                  {option.name}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <NavBar
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
+          navOptions={contents.navOptions}
+        />
         <header className='flex justify-between w-full'>
           <div className='flex flex-col'>
             <h1 className='text-8xl text-prime-light font-bold text-left '>
