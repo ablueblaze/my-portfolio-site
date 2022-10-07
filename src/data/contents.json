@@ -2,9 +2,9 @@
   "aboutMe": {
     "title": "About Me",
     "aboutBlurb": [
-      "Thank you for taking the time out of your no doubt busy day to come by my little corner of the internet. I've been leveling up my skills in front-end web development for a little over a year now.",
-      "I've found the path to be rewarding, exhausting, fun, and much more. I am a creator at heart. I love to create things that are useful, and that solve small problems. I am a self taught developer, and I am always looking to learn more.",
-      "I am currently working on a few projects, and I am always looking for new opportunities. If you have any questions, or would like to work together, please feel free to contact me. I look forward to hearing from you."
+      "Hello, and thanks for dropping by! My name is Blaze, and I'm a frontend web developer. I've been on this journey for a little over a year now, and I've discovered a deep enjoyment for working with code.",
+      "I've adapted a couple of philosophies as I’ve built my skills: Keep it simple, keep it easy to change, and start clunky then clean up as you go. These have helped me create both a smooth learning system and production process.",
+      "Some of the things I enjoy doing outside of coding are baking, gaming, table top role play, and cycling."
     ]
   },
   "footer": {
