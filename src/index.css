@@ -5,6 +5,10 @@
 @layer components {
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(97, 97, 97);
   color: #fbf5f3;

@@ -22,6 +22,7 @@ module.exports = {
         'gradient-top': '#100036',
         'gradient-bottom': '#2c0059',
         'nav-mobile-bg': '#001528',
+        'footer-bg': '#2F2E41',
       },
       spacing: {},
       dropShadow: {},
