@@ -6,7 +6,6 @@ module.exports = {
   ],
   mode: 'jit',
   // These paths are just examples, customize them to match your project structure
-  purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
   darkMode: 'class',
   theme: {
     extend: {
@@ -22,11 +21,18 @@ module.exports = {
         'prime-accent': '#A4031F',
         'gradient-top': '#100036',
         'gradient-bottom': '#2c0059',
+        'nav-mobile-bg': '#001528',
       },
       spacing: {},
       dropShadow: {},
       animation: {},
-      backgroundImage: {},
+      backgroundImage: {
+        'hero-image': "url('assets/Good_Profile_pic.jpg')",
+      },
+      backgroundSize: {
+        'hero-md': '130%',
+        'hero-lg': '60%',
+      },
     },
     container: {},
   },
