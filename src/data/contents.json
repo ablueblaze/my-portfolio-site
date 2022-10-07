@@ -1,57 +1,175 @@
 {
-  "aboutMe": {
-    "title": "About Me",
-    "blurbs": [
-      "Thank you for taking the time out of your no doubt busy day to come by my little corner of the internet. I've been leveling up my skills in front-end web development for a little over a year now.",
-      "I've found the path to be rewarding, exhausting, fun, and much more. I am a creator at heart. I love to create things that are useful, and that solve small problems. I am a self taught developer, and I am always looking to learn more.",
-      "I am currently working on a few projects, and I am always looking for new opportunities. If you have any questions, or would like to work together, please feel free to contact me. I look forward to hearing from you."
+  "aboutMe": [
+    "Hello, and thanks for dropping by! My name is Blaze, and I'm a frontend web developer. I've been on this journey for a little over a year now, and I've discovered a deep enjoyment for working with code.",
+    "I've adapted a couple of philosophies as I’ve built my skills: Keep it simple, keep it easy to change, and start clunky then clean up as you go. These have helped me create both a smooth learning system and production process.",
+    "Some of the things I enjoy doing outside of coding are baking, gaming, table top role play, and cycling."
+  ],
+  "footer": {
+    "blurb": "While your travels have brought you here, I find myself wandering the far reaches of the web. Forever seeking the next cyber hill seeking the next bit of wisdom. If you have any questions, would like to work together, or feel up to a virtual coffee to swap stories, please feel free to contact me.",
+
+    "links": [
+      {
+        "id": "email",
+        "url": "mailto:blaze@fyxwing.com",
+        "img": "../assets/at-solid.svg",
+        "alt": "Email icon"
+      },
+      {
+        "id": "twitter",
+        "url": "https://twitter.com/ABlueBlaze/",
+        "img": "../assets/twitter-brands.svg",
+        "alt": "Twitter Icon"
+      },
+      {
+        "id": "linkedin",
+        "url": "https://www.linkedin.com/in/blaze-scott-3672b891/",
+        "img": "../assets/linkedin-brands.svg",
+        "alt": "Linkedin Icon"
+      },
+      {
+        "id": "github",
+        "url": "https://github.com/ablueblaze",
+        "img": "../assets/github-brands.svg",
+        "alt": "GitHub Icon"
+      }
     ]
   },
-  "contactBlurb": "While your travels have brought you here, I find myself wandering the far reaches of the web. Forever seeking the next cyber hill seeking the next bit of wisdom. If you have any questions, would like to work together, or feel up to a virtual coffee to swap stories, please feel free to contact me.",
-  "contactLinks": [
-    {
-      "id": "email",
-      "url": "mailto:blaze@fyxwing.com",
-      "img": "../assets/at-solid.svg",
-      "alt": "Email icon"
-    },
-    {
-      "id": "twitter",
-      "url": "https://twitter.com/ABlueBlaze/",
-      "img": "../assets/twitter-brands.svg",
-      "alt": "Twitter Icon"
-    },
-    {
-      "id": "linkedin",
-      "url": "https://www.linkedin.com/in/blaze-scott-3672b891/",
-      "img": "../assets/linkedin-brands.svg",
-      "alt": "Linkedin Icon"
-    },
-    {
-      "id": "github",
-      "url": "https://github.com/ablueblaze",
-      "img": "../assets/github-brands.svg",
-      "alt": "GitHub Icon"
-    }
-  ],
   "projects": [
     {
       "title": "Etch-a-Sketch",
-      "link": "https://fluffy-croissant-7df646.netlify.app",
+      "demoLink": "https://fluffy-croissant-7df646.netlify.app",
+      "repoLink": "#",
+      "description": "My first web application. A simple etch-a-sketch clone.",
       "image": "../assets/Screens/EtchaSketch-screen.png",
       "alt": "Etch-a-Sketch screenshot"
     },
     {
       "title": "Expense Tracker",
-      "link": "https://sparkly-squirrel-e6c6c1.netlify.app",
+      "demoLink": "https://sparkly-squirrel-e6c6c1.netlify.app",
+      "repoLink": "#",
+      "description": "Expense Tracker is a simple card for displaying expenses.",
       "image": "../assets/Screens/Expense-screen.png",
       "alt": "Expense Tracker screenshot"
     },
     {
       "title": "Calculator",
-      "link": "https://polite-elf-7b445f.netlify.app",
+      "demoLink": "https://polite-elf-7b445f.netlify.app",
+      "repoLink": "#",
+      "description": "Calculator app with a changeable theme",
       "image": "../assets/Screens/Calc-screen.png",
       "alt": "Calculator screenshot"
+    }
+  ],
+  "navOptions": [
+    {
+      "id": "home",
+      "name": "Home",
+      "url": "#home"
+    },
+    {
+      "id": "about",
+      "name": "About",
+      "url": "#about"
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "url": "#projects"
+    },
+    {
+      "id": "skills",
+      "name": "Skills",
+      "url": "#skills"
+    },
+    {
+      "id": "contact",
+      "name": "Contact",
+      "url": "#contact"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Frontend",
+      "icons": [
+        {
+          "name": "HTML",
+          "url": "assets/SkillLogos/html-svgrepo-comb.svg"
+        },
+        {
+          "name": "CSS",
+          "url": "assets/SkillLogos/css-svgrepo-com.svg"
+        },
+        {
+          "name": "JavaScript",
+          "url": "assets/SkillLogos/js-svgrepo-com.svg"
+        },
+        {
+          "name": "React",
+          "url": "assets/SkillLogos/react-svgrepo-com.svg"
+        },
+        {
+          "name": "Tailwind",
+          "url": "assets/SkillLogos/tailwind-svgrepo-com.svg"
+        },
+        {
+          "name": "Sass",
+          "url": "assets/SkillLogos/sass-svgrepo-com.svg"
+        }
+      ]
+    },
+    {
+      "title": "Backend",
+      "icons": [
+        {
+          "name": "Git",
+          "url": "assets/SkillLogos/git-svgrepo-com.svg"
+        },
+        {
+          "name": "Node",
+          "url": "assets/SkillLogos/nodejs-svgrepo-com.svg"
+        },
+        {
+          "name": "Jest",
+          "url": "assets/SkillLogos/jest-svgrepo-com.svg"
+        },
+        {
+          "name": "Jasmine",
+          "url": "assets/SkillLogos/jasmine-svgrepo-com.svg"
+        },
+        {
+          "name": "Vite",
+          "url": "assets/SkillLogos/vite-svgrepo-com.svg"
+        },
+        {
+          "name": "Webpack",
+          "url": "assets/SkillLogos/webpack-svgrepo-com.svg"
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "icons": [
+        {
+          "name": "Linux",
+          "url": "assets/SkillLogos/linux-tux-svgrepo-com.svg"
+        },
+        {
+          "name": "VS Code",
+          "url": "assets/SkillLogos/visual-studio-code-svgrepo-com.svg"
+        },
+        {
+          "name": "Figma",
+          "url": "assets/SkillLogos/figma-svgrepo-com.svg"
+        },
+        {
+          "name": "Github",
+          "url": "assets/SkillLogos/github-octocat-svgrepo-com.svg"
+        },
+        {
+          "name": "Netlify",
+          "url": "assets/SkillLogos/netlify-svgrepo-com.svg"
+        }
+      ]
     }
   ]
 }
