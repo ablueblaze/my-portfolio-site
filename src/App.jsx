@@ -44,7 +44,7 @@ function App() {
           <div className='flex items-start justify-between space-x-4 mt-20'>
             <img
               className=' w-1/2'
-              src='assets/undraw_lost_online.svg'
+              src='assets/undraw_lost_online_yellow.svg'
               alt='art of a man on his phone with space swirling around him in the background'
             />
             <article className=' w-1/2'>

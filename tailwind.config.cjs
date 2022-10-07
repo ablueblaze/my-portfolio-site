@@ -18,7 +18,8 @@ module.exports = {
       colors: {
         'prime-light': '#FBF5F3',
         'prime-dark': '#001528',
-        'prime-accent': '#A4031F',
+        // 'prime-accent': '#A4031F',
+        'prime-accent': '#F9D726',
         'gradient-top': '#100036',
         'gradient-bottom': '#2c0059',
         'nav-mobile-bg': '#001528',
