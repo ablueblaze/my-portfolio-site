@@ -99,28 +99,28 @@ function App() {
             className='grid grid-cols-6 grid-rows-6 gap-3 mx-auto md:max-w-3xl w-full text-2xl h-[400px] text-prime-dark mt-20'
             action='#'>
             <input
-              className='col-span-3 row-start-1 text-2xl  bg-prime-light w-full rounded-3xl'
+              className='col-span-3 row-start-1 text-2xl  bg-prime-light w-full rounded-3xl focus:outline-prime-accent transition-all ease-linear duration-100 placeholder:text-prime-soft-dark'
               type='text'
               name='Name'
               id='name'
               placeholder='Name'
             />
             <input
-              className='col-span-3 row-start-2 text-2xl bg-prime-light w-full rounded-3xl'
+              className='col-span-3 row-start-2 text-2xl bg-prime-light w-full rounded-3xl focus:outline-prime-accent transition-all ease-linear duration-100 placeholder:text-prime-soft-dark'
               type='email'
               name='email'
               id='email'
               placeholder='Email'
             />
             <textarea
-              className='col-span-6 row-span-3 text-2xl bg-prime-light rounded-3xl'
+              className='col-span-6 row-span-3 text-2xl bg-prime-light rounded-3xl focus:outline-prime-accent transition-all ease-linear duration-100 placeholder:text-prime-soft-dark'
               name='message'
               id='message'
               cols='30'
               rows='10'
               placeholder='Message'></textarea>
             <button
-              className='col-span-2 row-start-6 w-full rounded-3xl bg-prime-light'
+              className='col-span-2 row-start-6 w-full rounded-3xl bg-prime-light hover:scale-[1.05] hover:bg-prime-accent transition-all duration-100 ease-in-out'
               type='submit'>
               Submit
             </button>
