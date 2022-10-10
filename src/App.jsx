@@ -17,39 +17,41 @@ function App() {
           setCurrentPage={setCurrentPage}
           navOptions={contents.navOptions}
         />
-        <header className='md:flex md:justify-between w-full md:mt-40  mt-20 md:px-8 sm:px-6 px-2 transition-all ease-linear duration-200'>
-          <div className='flex flex-col lg:mt-32 md:mt-20'>
-            <h1 className='xl:text-[12rem] text-8xl text-prime-light font-bold md:text-left text-center'>
+        <header className='max-w-[1700px] md:flex md:justify-between w-full md:mt-32  mt-14 md:px-8 sm:px-6 px-2 transition-all ease-linear duration-200'>
+          <div className='flex flex-col mt-20'>
+            <h1 className='2xl:text-[11rem] md:text-[10vw] sm:text-[15vw] text-7xl text-prime-light font-bold md:text-left text-center'>
               Blaze Scott
             </h1>
-            <h2 className='xl:text-8xl xl:pl-2 pl-1 md:text-4xl text-5xl text-prime-light md:text-left text-center'>
-              Full Stack Developer
+            <h2 className='2xl:text-8xl md:text-[4.5vw] text-5xl text-prime-light md:text-left text-center'>
+              Front-end Web Developer
             </h2>
           </div>
-          <div className='md:w-8/12 xl:w-4/12 xl:mr-20 mr-10 w-full rounded-3xl md:rotate-12 overflow-hidden mt-5'>
+          <div className='md:w-4/12 w-10/12 md:mx-auto mx-auto mr-10 rounded-3xl md:rotate-12 overflow-hidden mt-5'>
             <img
-              className='md:block hidden object-cover transition-all ease-linear duration-200'
+              className='md:block hidden rounded-3xl object-cover transition-all ease-linear duration-200'
               src='assets/profile_pic_4-tilted.jpg'
               alt='profile picture of Blaze'
             />
             <img
-              className='block md:hidden object-cover  transition-all ease-linear duration-200'
+              className='block md:hidden object-cover w-full transition-all ease-linear duration-200'
               src='assets/Good_Profile_pic.jpg'
               alt='profile picture of Blaze'
             />
           </div>
         </header>
-        <section id='about' className='container w-full mt-32'>
+        <section
+          id='about'
+          className='container w-full mt-32 flex flex-col items-center'>
           <SectionHeader title={'About'} />
-          <div className='flex items-start justify-between space-x-4 mt-20'>
+          <div className='flex lg:flex-row lg:max-w-none max-w-xl flex-col items-start justify-between space-x-4 mt-20'>
             <img
-              className=' w-1/2'
+              className=' lg:w-1/2'
               src='assets/undraw_lost_online_yellow.svg'
               alt='art of a man on his phone with space swirling around him in the background'
             />
-            <article className=' w-1/2'>
+            <article className='lg:w-1/2 lg:mt-0 mt-10'>
               {contents.aboutMe.map((paragraph) => (
-                <p className='text-xl text-prime-light indent-6 pb-5'>
+                <p className='xl:text-4xl text-3xl text-prime-light indent-6 pb-5'>
                   {paragraph}
                 </p>
               ))}
@@ -64,14 +66,18 @@ function App() {
           <SectionHeader title={'Skills'} />
           <article>
             {contents.skills.map((skill) => (
-              <div className='flex flex-col items-center justify-between mt-16'>
+              <div className='flex flex-col items-center justify-between mt-24'>
                 <h3 className='text-3xl underline text-prime-light'>
                   {skill.title}
                 </h3>
                 <div className='flex items-center space-x-6 mt-6'>
                   {skill.icons.map((icon) => (
                     <div className='relative flex flex-col justify-center items-center'>
-                      <img src={icon.url} alt={icon.name} className='w-20' />
+                      <img
+                        src={icon.url}
+                        alt={icon.name}
+                        className='max-w-[90px] lg:w-[7vw] w-[10vw]'
+                      />
                       <p className=' absolute text-xl text-center font-bold pt-20 w-24 bottom-0 opacity-0 hover:opacity-100 hover:-bottom-9 transition-all ease-in-out duration-500'>
                         {icon.name}
                       </p>

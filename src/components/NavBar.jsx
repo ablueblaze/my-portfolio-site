@@ -49,7 +49,7 @@ function NavBar({ currentPage, setCurrentPage, navOptions }) {
                 setCurrentPage(option.id);
                 toggleDropDown();
               }}
-              className={`text-prime-light lg:text-4xl text-xl hover:text-prime-accent transition-all ease-linear duration-300 cursor-pointer ${
+              className={`text-prime-light lg:text-4xl text-2xl hover:text-prime-accent transition-all ease-linear duration-300 cursor-pointer ${
                 //todo: find a way to make the transition smoother
                 currentPage === option.id ? 'text-prime-accent' : ''
               }`}
