@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.0",
     "flowbite": "^1.5.3",
     "flowbite-react": "^0.1.11",
     "nanoid": "^4.0.0",
