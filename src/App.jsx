@@ -8,10 +8,13 @@ import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import ContactForm from './components/ContactForm';
 import About from './components/About';
+import Carousel from './components/Carousel';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 import SectionHeader from './components/SectionHeader';
 
+//todo: dynamic background
+//todo: touchup design
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
   return (
@@ -34,6 +37,7 @@ function App() {
         <section id='projects' className='container w-full mt-32'>
           <SectionHeader title={'Projects'} />
           {/* image carousel */}
+          <Carousel contents={contents.projects} />
         </section>
         <section id='skills' className='container w-full mt-32'>
           <SectionHeader title={'Skills'} />

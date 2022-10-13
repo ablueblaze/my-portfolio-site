@@ -1,14 +1,19 @@
 import React from 'react';
+import { nanoid } from 'nanoid';
 
 function Skills({ skills }) {
   return (
     <article>
       {skills.map((skill) => (
-        <div className='flex flex-col items-center justify-between mt-24'>
+        <div
+          key={nanoid()}
+          className='flex flex-col items-center justify-between mt-24'>
           <h3 className='text-4xl underline text-prime-light'>{skill.title}</h3>
           <div className='flex items-center space-x-6 mt-6'>
             {skill.icons.map((icon) => (
-              <div className='relative flex flex-col justify-center items-center'>
+              <div
+                key={nanoid()}
+                className='relative flex flex-col justify-center items-center'>
                 <img
                   src={icon.url}
                   alt={icon.name}

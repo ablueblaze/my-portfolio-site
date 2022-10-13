@@ -1,4 +1,5 @@
 import React from 'react';
+import { nanoid } from 'nanoid';
 
 function About({ aboutMe }) {
   return (
@@ -10,7 +11,9 @@ function About({ aboutMe }) {
       />
       <article className='lg:w-1/2 lg:mt-0 mt-10'>
         {aboutMe.map((paragraph) => (
-          <p className='xl:text-4xl text-3xl text-prime-light indent-6 pb-5'>
+          <p
+            key={nanoid()}
+            className='xl:text-4xl text-3xl text-prime-light indent-6 pb-5'>
             {paragraph}
           </p>
         ))}

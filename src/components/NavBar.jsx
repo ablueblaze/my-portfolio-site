@@ -1,8 +1,9 @@
 import React from 'react';
 import { nanoid } from 'nanoid';
 
-// todo: Apply transition effects to the mobile menu
-// todo: Add accessibility features
+//todo: Apply transition effects to the mobile menu
+//todo: Add accessibility features
+//todo: Fix up mobile looks
 function NavBar({ currentPage, setCurrentPage, navOptions }) {
   const toggleDropDown = (action) => {
     const navList = document.getElementById('nav-list');

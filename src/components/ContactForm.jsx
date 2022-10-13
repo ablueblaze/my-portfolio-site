@@ -1,6 +1,9 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
+//todo: basic error checking
+//todo: better "Thanks for contacting me" message
+//todo: fix highlighting of text boxes
 function ContactForm() {
   const [state, handleSubmit] = useForm('myyvpkbk');
   if (state.succeeded) {
