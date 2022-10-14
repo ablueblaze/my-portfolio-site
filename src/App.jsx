@@ -36,8 +36,8 @@ function App() {
         </section>
         <section id='projects' className='container w-full mt-32'>
           <SectionHeader title={'Projects'} />
-          {/* image carousel */}
-          <Carousel contents={contents.projects} />
+          {/* image Projects */}
+          {/* <Carousel contents={contents.projects} /> */}
         </section>
         <section id='skills' className='container w-full mt-32'>
           <SectionHeader title={'Skills'} />

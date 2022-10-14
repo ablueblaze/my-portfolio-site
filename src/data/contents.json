@@ -11,7 +11,8 @@
       "repoLink": "#",
       "description": "My first web application. A simple etch-a-sketch clone.",
       "image": "../assets/Screens/EtchaSketch-screen.png",
-      "alt": "Etch-a-Sketch screenshot"
+      "alt": "Etch-a-Sketch screenshot",
+      "zIndex": "1"
     },
     {
       "title": "Expense Tracker",
@@ -19,7 +20,8 @@
       "repoLink": "#",
       "description": "Expense Tracker is a simple card for displaying expenses.",
       "image": "../assets/Screens/Expense-screen.png",
-      "alt": "Expense Tracker screenshot"
+      "alt": "Expense Tracker screenshot",
+      "zIndex": "2"
     },
     {
       "title": "Calculator",
@@ -27,7 +29,8 @@
       "repoLink": "#",
       "description": "Calculator app with a changeable theme",
       "image": "../assets/Screens/Calc-screen.png",
-      "alt": "Calculator screenshot"
+      "alt": "Calculator screenshot",
+      "zIndex": "3"
     }
   ],
   "navOptions": [
