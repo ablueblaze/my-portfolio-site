@@ -20,6 +20,7 @@ module.exports = {
         'prime-light': '#FBF5F3',
         'prime-dark': '#100036',
         'prime-soft-dark': '#321d47',
+        'prime-dark-accent': '#66055E',
         // 'prime-accent': '#A4031F',
         'prime-accent': '#F9D726',
         'gradient-top': '#100036',

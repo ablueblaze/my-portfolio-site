@@ -8,29 +8,26 @@
     {
       "title": "Etch-a-Sketch",
       "demoLink": "https://fluffy-croissant-7df646.netlify.app",
-      "repoLink": "#",
-      "description": "My first web application. A simple etch-a-sketch clone.",
+      "repoLink": "https://github.com/ablueblaze/Etch-A-Sketch-Odin",
+      "description": "My first web application. A simple etch-a-sketch clone. This still brings a smile to my face when I look at it. I was so excited when I got it to work!",
       "image": "../assets/Screens/EtchaSketch-screen.png",
-      "alt": "Etch-a-Sketch screenshot",
-      "zIndex": "1"
+      "alt": "Etch-a-Sketch screenshot"
     },
     {
       "title": "Expense Tracker",
       "demoLink": "https://sparkly-squirrel-e6c6c1.netlify.app",
-      "repoLink": "#",
-      "description": "Expense Tracker is a simple card for displaying expenses.",
+      "repoLink": "https://github.com/ablueblaze/FM-005-expenses-chart-component",
+      "description": "Expense Tracker component built from a design file from Frontend Mentor. This was a great project to practice my CSS skills.",
       "image": "../assets/Screens/Expense-screen.png",
-      "alt": "Expense Tracker screenshot",
-      "zIndex": "2"
+      "alt": "Expense Tracker screenshot"
     },
     {
       "title": "Calculator",
       "demoLink": "https://polite-elf-7b445f.netlify.app",
-      "repoLink": "#",
-      "description": "Calculator app with a changeable theme",
+      "repoLink": "https://github.com/ablueblaze/FM-006-calculator-app",
+      "description": "Calculator app with a changeable theme built from a design file from Frontend Mentor. A great project to practice my JavaScript skills.",
       "image": "../assets/Screens/Calc-screen.png",
-      "alt": "Calculator screenshot",
-      "zIndex": "3"
+      "alt": "Calculator screenshot"
     }
   ],
   "navOptions": [
